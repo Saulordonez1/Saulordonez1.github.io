@@ -52,7 +52,7 @@ nav ul {
 }
 
 nav li {
-    position: relative; /* needed for absolute-positioned dropdown */
+    position: relative; 
 }
 
 nav ul.dropdown {
@@ -125,7 +125,7 @@ nav ul.dropdown a:hover {
         align-items: center;
     }
 
-    /* hide main nav by default on mobile */
+
     nav ul {
         display: none;
         flex-direction: column;
