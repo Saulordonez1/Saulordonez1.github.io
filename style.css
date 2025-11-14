@@ -115,9 +115,7 @@ nav ul.dropdown a:hover {
 .nav-toggle .hamburger::before { top: -7px; }
 .nav-toggle .hamburger::after { top: 7px; }
 
-@media (max-width: 768px) {
-    .container {
-        padding: 0 16px;
+@media (max-width: 768px) 
     }
 
     header {
