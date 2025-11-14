@@ -34,13 +34,13 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: DFE1B5;
+    color: White;
     font-weight: 400;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #666;
+    color: #DFE1B5;
 }
 
 nav ul {
