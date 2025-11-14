@@ -7,6 +7,7 @@ body {
 
 .container {
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 header {
@@ -33,13 +34,13 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: White;
+    color: white;
     font-weight: 400;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #DFE1B5;
+    color: #666;
 }
 
 nav ul {
@@ -52,7 +53,6 @@ nav ul {
 
 nav li {
     position: relative; 
-}
 
 nav ul.dropdown {
     display: none;
@@ -114,17 +114,15 @@ nav ul.dropdown a:hover {
 .nav-toggle .hamburger::before { top: -7px; }
 .nav-toggle .hamburger::after { top: 7px; }
 
-@media (max-width: 768px)
+@media (max-width: 768px) {
     .container {
-        padding: 0px;
+        padding: 0 16px;
     }
-    
-    
+
     header {
         padding: 12px 16px;
         align-items: center;
     }
-
 
     nav ul {
         display: none;
