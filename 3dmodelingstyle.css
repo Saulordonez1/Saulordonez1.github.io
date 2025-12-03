@@ -1,0 +1,30 @@
+body {
+    margin: px;
+    padding: 0;
+    background-color: white;
+
+.notable-regular {
+  font-family: "Notable", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  bold: 4;
+}
+
+.logo {
+    position: absolute;
+    padding: 0px 0px 0px 0px ;
+    font-size: 70px;
+    top: 150px; 
+    left: 923px; 
+}
+.cuadrado-inclinado-fondo {
+    position: absolute; 
+    width: 1600px;
+    height: 3000px;
+    background-color: #fff367; 
+    top: -500px; 
+    left: 105px; 
+    transform: rotate(60deg); 
+    z-index: -1; 
+    opacity: 95%;
+}

@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+.notable-regular {
+  font-family: "Notable", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  bold: 4;
+}
+
+.logo {
+    position: absolute;
+    padding: 0px 0px;
+    font-size: 70px;
+    top: 150px; 
+    left: 140px; 
+}
+.cuadrado-inclinado-fondo {
+    position: absolute; 
+    width: 1600px;
+    height: 3000px;
+    background-color: #fff367; 
+    top: -500px; 
+    left: 105px; 
+    transform: rotate(60deg); 
+    z-index: -1; 
+    opacity: 95%;
+}
+.cuadrado {
+    position: absolute; 
+    width: 620px;
+    height: 464px;
+    background-color: white; 
+    top: 380px; 
+    left: 754px;  
+    z-index: -1; 
+    opacity: 75%;
+}
+.image1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 392px;
+    left: 771px;
+    padding: 0px 0px;
+}
+.image2 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 647px;
+    left: 170px;
+    padding: 0px 0px;
+}
+.cuadrado2 {
+    position: absolute; 
+    width: 467px;
+    height: 615px;
+    background-color: white; 
+    top: 630px; 
+    left: 155px;  
+    z-index: -1; 
+    opacity: 75%;
+}
+}
