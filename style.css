@@ -243,20 +243,25 @@ p {
     margin: 30;
 }
 .instagramlogo {
+    position: absolute;
     width: 1px;
     height: 1px;
-    top: 10px;
-    padding: 48.3px 1390px;
+    top: 920px;
+    left: 1400px;
+    padding: 0px 0px;
 }
 p2 {
     font-family: 'Oswald', bold;
     font-size: 30px;
+    position: absolute;
     color: white;
     line-height: .24;
     max-width: 10px;
-    margin:0px 0px 0px 1290px; 
+    margin:0px 0px 0px 0px; 
     padding: 0px;
     text-align: left;
+    left:1305px;
+    top:966px;
     text-decoration: none;
     display: inline-flex;
 }
